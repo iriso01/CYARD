@@ -1,0 +1,44 @@
+ul.nav {
+    list-style-type: none;
+}
+
+ul.nav a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border: solid 2px greenyellow;
+    font-size: 20px;
+    text-align: center;
+}
+
+#sslka1:link {
+    color: red;
+    text-decoration: none;
+}
+
+#sslka2:visited {
+    color: #8B0000;
+}
+
+#sslka3:hover {
+    color: green;
+}
+
+#sslka4:active {
+    color: rgb(184, 134, 11);
+}
+
+.nav1 li {
+    display: inline;
+}
+
+.nav1 a {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+    background-color: yellow;
+    text-decoration: none;
+    color: blue;
+    width: 15%;
+    margin: -2px;
+}

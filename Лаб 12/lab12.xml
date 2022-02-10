@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<water>
+<river>
+<name>Конго</name>
+<length>4700</length>
+</river>
+<river>
+<name>Нил</name>
+<length>6852</length>
+</river>
+<river>
+<name>Обь-Иртыш </name>
+<length>5410</length>
+</river>
+<river>
+<name>Амазонка</name>
+<length>6992</length>
+</river>
+</water>
+

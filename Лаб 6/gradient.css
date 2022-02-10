@@ -1,0 +1,48 @@
+div{
+    display:inline-block;
+}
+#gradient-1{
+background-image:linear-gradient(to bottom,blue,red);
+height: 80px;
+width: 80px; 
+margin:10px;
+border:solid 1px black;   
+}
+#gradient-2{
+    background: repeating-linear-gradient(45deg, red, red 5px, blue 5px, blue 10px);
+    height: 80px;
+    width: 80px; 
+    margin:10px;
+    border:solid 1px black;     
+}
+#gradient-3{
+    background-image:radial-gradient(yellow,green);
+    height: 80px;
+    width: 80px; 
+    margin:10px;
+    border:solid 1px black; 
+}
+#gradient-4{
+    background-image:repeating-radial-gradient(green,green 5px,yellow 5px,yellow 10px);
+    height: 80px;
+    width: 80px; 
+    margin:10px;
+    border:solid 1px black; 
+}
+#gradient-5{background-image: radial-gradient(yellow,green, transparent),
+    linear-gradient(to bottom,blue,#FF0099);               
+    height: 80px;                  
+    width: 80px; 
+    margin:10px;
+    border:solid 1px black; 
+}
+#gradient-6{
+    background-image:linear-gradient(to right,yellow 10%,green 40%,transparent),
+                     linear-gradient(to bottom,black 10%,white 70%,blue 89%,#FF0099 80%);
+                     
+                     
+height: 80px;                  
+width: 80px; 
+margin:10px;
+border:solid 1px black; 
+}

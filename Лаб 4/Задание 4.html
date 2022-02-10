@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       h3{
+       color:rgba(255,255,255,1);
+       text-align: center;
+       }
+       .pol{
+           color:rgba(255,255,255,1);
+       }
+       .registr{
+           background-color: indigo;
+           width: 12cm;
+           height: 11.5cm;
+       }
+       label{
+       display: inline-block;
+       width:12em;
+       vertical-align: top;
+       text-align: left;
+       margin-right: 20px;
+       text-indent: 10px;
+       color:rgba(255,255,255,1);
+       }
+            #surname,#name,#secnam,#vozr,#email,#country{
+            background-color: rgba(255,255,255,.5);
+             box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+             color:rgba(255,255,255,1);
+            }
+            #surname:focus,#name:focus,#secnam:focus,#vozr:focus,#country:focus{
+            background-color: black;  
+            color:white;
+            }
+            #but1,#but2{
+            height: 0.8cm;
+            background-color: navy; 
+            box-shadow: 0 0 4px white;
+            color:rgba(255,255,255,1);
+            }
+           .butt{
+            margin-left: 5cm;
+           }
+</style> 
+</head>
+<body>
+    <form class='registr'>
+    <h3>Регистрация постоянного клиента</h3>
+    <p>    <label class='col' for='surname'>Фамилия: </label><input type='text' name='reg' id='surname'> </p>
+    <p>    <label class='col' for='name'>Имя:</label><input type='text' name='reg' id='name'> </p>
+    <p>    <label class='col' for='secnam'>Отчество: </label><input type='text' name='reg' id='secnam'> </p>
+    <p>    <label class='col' for='vozr'> Возраст:</label><input type='text' name='reg' id='vozr'> </p>
+    <p class='pol'>    <label class='col' for='pol'>Пол:</label><input type='checkbox' name='namerad' value='wom' id='pol'>женский
+           <input type='checkbox' name='namerad' value='man' id='pol'>мужской  </p> 
+    <p>    <label class='mail' for='email'>E-mail:</label><input type='email' name='mail' id='email'> </p>
+    <p>    <label class='col' for='country'>Страна проживания:</label><input type='text' name='reg' id='country'> </p>
+    <p>    <label> Откуда вы узнали о нас:</label> 
+     <select>
+        <option value='1'>Реклама</option>
+        <option value='2'>Сайт</option>
+        <option value='3'>Листовка</option>
+      </select> </p>
+    <p>    <label>Дата заполнения</label><input type='date'> </p>
+   <p class='butt'>     <input type="button" value="Регистрация" id="but1">
+           <input type="button" value="Отмена" id="but2"> </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+#izob1,
+#izob2,
+#izob3,
+#izob4 {
+    margin: 70px;
+    width: 200px;
+    position: relative;
+}
+
+#izob1 {
+    animation: izob1 8s linear infinite;
+}
+
+#izob2 {
+    animation: izob2 8s linear infinite;
+}
+
+#izob3 {
+    animation: izob3 8s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+#izob4 {
+    animation: izob4 8s linear infinite;
+}
+
+@keyframes izob1 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    100% {
+        left: 200px;
+        top: 0;
+    }
+}
+
+@keyframes izob2 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    100% {
+        left: 0;
+        top: 200px;
+    }
+}
+
+@keyframes izob3 {
+    0% {
+        transform: translate3d(0, 0, 0)
+    }
+    50% {
+        transform: translate3d(150px, 340px, 200px)
+    }
+    100% {
+        transform: translate3d(250px, 180px, 360px)
+    }
+}
+
+@keyframes izob4 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 200px;
+        top: 0;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0;
+        top: 200px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+h1 {
+    animation: h1 5s infinite;
+}

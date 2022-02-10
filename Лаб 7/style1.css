@@ -1,0 +1,43 @@
+#izob1 {
+    width: 300px;
+    transform: perspective(350px) rotateX(50deg);
+    margin: 30px 30px 30px 47px;
+}
+
+#izob2 {
+    width: 300px;
+    transform: perspective(350px) rotateY(32deg);
+}
+
+#izob3 {
+    width: 300px;
+    transform: perspective(350px) rotateX(50deg);
+}
+
+#izob4 {
+    width: 300px;
+    transform: perspective(350px) rotateY(-32deg);
+}
+
+#izob2,
+#izob3,
+#izob4 {
+    margin: 35px;
+}
+
+#zad3 {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    color: darkgreen;
+    transition: color 20s;
+}
+
+#zad3:hover {
+    color: blue;
+}
+
+h1 {
+    animation: h1 5s infinite;
+}

@@ -1,0 +1,27 @@
+lev,
+weightlev {
+    display: block;
+    background-color: lavender;
+    margin: 20px;
+}
+
+tigr,
+weighttigr {
+    display: block;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+panda,
+weightpanda {
+    background-color: lightcyan;
+    display: block;
+    margin: 20px;
+}
+
+zoopark {
+    display: block;
+    border: solid 2px lightslategray;
+    margin: 20px;
+    box-shadow: 5px -5px mediumaquamarine;
+}

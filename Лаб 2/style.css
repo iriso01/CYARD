@@ -1,0 +1,22 @@
+
+h1,h2,h3{ 
+    font-family:'Monotype Corsiva';
+    color:purple;
+    text-align: center;
+}
+.ul1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18pt; 
+    color:red;
+  }
+  .ul2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20pt; 
+    color:gold; 
+  }
+  .ul3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22pt; 
+    color:darkgreen; 
+  }
+ 

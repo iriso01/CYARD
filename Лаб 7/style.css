@@ -1,0 +1,26 @@
+#izob1:hover {
+    transform: scale(0.5);
+}
+
+#izob2 {
+    transform: rotate(45deg);
+}
+
+#izob3 {
+    transform: translate(50px, 0px);
+}
+
+#izob4:hover {
+    transform: skew(-20deg);
+}
+
+#izob1,
+#izob2,
+#izob3,
+#izob4 {
+    margin: 110px;
+}
+
+h1 {
+    animation: h1 5s infinite;
+}

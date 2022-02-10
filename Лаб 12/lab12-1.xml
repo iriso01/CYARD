@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style1.xsl"?>
+<book>
+<student>
+<name>Лебедева София</name>
+<mark1>9</mark1>
+
+
+
+</student>
+<student>
+<name>Сорокин Иван</name>
+<mark1>10</mark1>
+
+
+</student>
+<student>
+<name>Карасева Мария</name>
+<mark1>8</mark1>
+
+</student>
+<student>
+<name>Медведев Андрей</name>
+<mark1>3</mark1>
+
+
+</student>
+<student>
+<name>Куприянов Дмитрий</name>
+<mark1>9</mark1>
+
+
+</student>
+
+</book>

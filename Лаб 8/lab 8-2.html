@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul.nav {
+            list-style-type: none;
+        }
+        
+        .nav li {
+            display: inline;
+        }
+        
+        .nav a {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 5px 15px 5px 30px;
+            text-decoration: none;
+            width: 100px;
+        }
+        
+        .nav li a {
+            background: url(facultet.png) no-repeat 0 0;
+        }
+        
+        .nav .pim a:hover {
+            background-position: 0 -90px;
+        }
+        
+        .nav .htit a:hover {
+            background-position: 0 -60px;
+        }
+        
+        .nav .bstu a:hover {
+            background-position: 0 0px;
+        }
+        
+        .nav .it a:hover {
+            background-position: 0 -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="bstu"><a>БГТУ</a></li>
+            <li class="it"><a href="https://it.belstu.by/">ИТ</a></li>
+            <li class="pim"><a>ПиМ</a></li>
+            <li class="htit"><a>ХТиТ</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
