@@ -1,0 +1,38 @@
+$rovn:center;
+$bckcol:#98fb98;
+$colgr:rgb(4, 37, 4);
+$col2:blue;
+body {
+    background-color: $bckcol;
+}
+
+h1 {
+    text-align: $rovn;
+}
+
+$shr:fantasy;
+$si:15px;
+font {
+    font-family: $shr;
+    font-size: $si;
+    color: $colgr;
+}
+
+h3,
+h2 {
+    text-align: $rovn;
+    color: $col2;
+}
+
+$type:circle;
+ul {
+    list-style-type: $type;
+}
+
+$bor:solid 2px black;
+table,
+tr,
+td,
+th {
+    border: $bor;
+}

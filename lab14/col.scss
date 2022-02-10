@@ -1,0 +1,13 @@
+$size: 36px;
+$rov:center;
+textPath {
+    font-size: $size;
+    text-align: $rov;
+}
+
+$cont:rgb(194, 126, 221);
+$wcont:5px;
+path {
+    stroke-width: $wcont;
+    stroke: $cont;
+}

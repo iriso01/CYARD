@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="col.css" rel="stylesheet" type="text/css">
+
+<head>
+    <title>Лаб 14</title>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="900" height="1000">
+        <defs>
+            <path id="testPath" d="M10 80 C 20 30, 95 10, 220 80 S 250 250, 680 80"/>
+        </defs>
+        <use xlink:href="#testPath" fill="none"  stroke-width="2"/>
+        <text x="2" y="40%" fill="darkgreen">
+            <textPath xlink:href="#testPath" startOffset="20%">Улыбайся
+            
+            </textPath> 
+        </text> 
+    </svg>
+</body>
+
+</html>

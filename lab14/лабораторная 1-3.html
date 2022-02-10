@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Оформление заказа </title>
+</head>
+ <body>
+     <h1 style="background-color: rgba(204, 204, 204, 0.918);">Оформить заказ</h1><br>
+<form>
+  <table width='700' height='600' >   
+  <tr valign='top'>
+  <th align="left" >Имя</th>  
+  <td> <input  type="text"  name="nam" ></td>
+  </tr>
+  <tr valign='top'>
+    <th align="left" >телефон </th>
+    <td> <input type="text" name="num"></td>
+  </tr>
+  <tr valign='top'>
+    <th align="left">адрес</th>
+    <td><textarea type="text" rows="8" cols="50" name="adr"></textarea></td>
+  </tr>
+  <tr valign='top'>
+    <th align="left">способ оплаты</th>
+    <td><input type='radio' name="nameradio" value="nal">наличными</p><br>
+      <input type='radio' name="nameradio" value="car">пластиковая карта</p><br>
+      <input type='radio' name="nameradio" value="bez">безналичный рассчет</p><br></td>
+  </tr >
+  <tr valign='top'>
+    <th align="left">желаемый день доставки</th>
+    <td><select>
+      <option value="1">Понедельник</option>
+       <option value="2">Вторник</option>
+       <option value="3">Среда</option>
+       <option value="4">Четверг</option>
+       <option value="5">Пятница</option>
+       <option value="6">Суббота</option>
+       <option value="7">Воскресенье</option>
+       </select>
+    </td>
+  </tr>
+  <tr validn='top'>
+  <th align="left">дополнительно</th>
+  <td>
+      <input type='checkbox' name="name1" value="ch1">перед доставкой свяжитесь со мной</p><br>
+      <input type='checkbox' name="name2" value="ch1">водитель должен быть трезвый</p><br>
+  </td>
+  </tr>
+  <tr validn='top'>
+    <th></th>
+    <td>
+        <input type='submit'>
+    </td>
+    </tr>
+
+</form>
+ </body>
+</html>

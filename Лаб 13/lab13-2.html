@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Лаб13-2</title>
+</head>
+
+<body>
+    <div>
+        <p><span id="sea"></span></p>
+        <p><span id="square"></span></p>
+        <p><span id="depth"></span></p>
+        <p><span id="country"></span></p>
+    </div>
+    <script>
+        txt = "<water>";
+        txt += "<sea>Средиземное море</sea>";
+        txt += "<square>2 500 000 км²</square>";
+        txt += "<depth>5 121 м</depth>";
+        txt += "<country>Волны Средиземного моря омывают побережья стран Европы, севера Африки и небольшого участка Юго-Западной Азии.</country>";
+        txt += "</water>";
+        if (window.DOMParser) {
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt, "text/xml");
+        }
+        document.getElementById("sea").innerHTML = xmlDoc.getElementsByTagName("sea")[0].childNodes[0].nodeValue;
+        document.getElementById("square").innerHTML = xmlDoc.getElementsByTagName("square")[0].childNodes[0].nodeValue;
+        document.getElementById("depth").innerHTML = xmlDoc.getElementsByTagName("depth")[0].childNodes[0].nodeValue;
+        document.getElementById("country").innerHTML = xmlDoc.getElementsByTagName("country")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+
+</html>

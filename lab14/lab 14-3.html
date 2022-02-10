@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="col.css">
+</head>
+
+<body>
+    <svg width="600" height="600">
+        <rect fill="NavajoWhite" width="100%" height="100%"/>
+        <style>
+            .c1{
+                fill:#b3b8e7;
+            }
+            .c2{
+                fill:#747adb;
+            }
+            .c3{
+                fill:#8ad8b1;
+            }
+            .c4{
+                fill:#a051ce;
+            }
+            .c5{
+                fill:#3b89ff;
+            }
+        </style>
+        <defs>
+            <path id="bubble" d="M50 6.25c27.614 0 50 18.188 50 40.625 0 22.437-22.386 40.625-50 40.625-2.652 0-5.255-0.169-7.795-0.493-10.74 10.74-23.56 12.666-35.955 12.949v-2.629c6.693-3.279 12.5-9.252 12.5-16.078 0-0.953-0.074-1.888-0.211-2.802-11.308-7.448-18.539-18.824-18.539-31.573 0-22.437 22.386-40.625 50-40.625z"/>
+
+        </defs>
+        <use xlink:href="#bubble" class="c1" x="90" y="10" transform="rotate(60 70 36) scale(0.5)"/>
+            <use xlink:href="#bubble" class="c2" x="230" y="-100" transform="rotate(100 83 26)"/>
+            <use xlink:href="#bubble" class="c3" x="230" y="-300" transform="rotate(90 107 39)"/>
+            <use xlink:href="#bubble" class="c4" x="230" y="-150" transform="rotate(60 15 26)"/>
+            <use xlink:href="#bubble" class="c5" x="230" y="-350" transform="rotate(110 100 26) scale(0.5) translate(100 150)"/>
+        </svg>
+</body>
+
+</html>
